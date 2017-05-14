@@ -1,0 +1,49 @@
+* {
+    font-family: 'Inknut Antiqua', serif;
+}
+
+h2 {
+    font-size: 4em;
+    line-height: 1.2em;
+    font-weight: 300;
+    letter-spacing: -2px;
+    color: #275C8D;
+}
+
+.container {
+    width: 90%;
+    margin-top: 20px;
+}
+
+a {
+display: inline-block;
+position: relative;
+z-index: 1;
+padding: .1em;
+margin: -.1em;
+}
+
+a:link {
+    color: #7fbf7f;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ccb2e5;
+    background-color: transparent;
+    text-decoration: none;
+    cursor: help;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
